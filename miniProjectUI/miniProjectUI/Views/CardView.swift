@@ -96,14 +96,16 @@ struct CardView: View {
                     
                     // MARK: - FOOTER
                     VStack(spacing: 15){
-                        CustomButtonView(title: "Login"){
+                        CustomButtonView(title: "Login", frameWidth: 180,titleColor: .colorGreenLight){
                             // ACTION
                             loginGecis = true
                         }.navigationDestination(isPresented: $loginGecis){
                             LoginPage()
                                 .navigationBarBackButtonHidden(true)
+                                
                         }
-                        CustomButtonView(title: "Sign Up"){
+                        
+                        CustomButtonView(title: "Sign Up", frameWidth: 180, titleColor: .colorGreenLight){
                             // ACTION
                             signUpGecis = true
                         }.navigationDestination(isPresented: $signUpGecis){

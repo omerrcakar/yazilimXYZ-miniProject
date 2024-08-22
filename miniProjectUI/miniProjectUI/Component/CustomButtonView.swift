@@ -10,7 +10,10 @@ import SwiftUI
 struct CustomButtonView: View {
     // Parametreler
     var title: String
+    var frameWidth: CGFloat
+    var titleColor: Color
     var action: () -> Void
+    
     
     var body: some View {
         Button{
@@ -20,17 +23,11 @@ struct CustomButtonView: View {
                 .font(.title2)
                 .fontWeight(.heavy)
                 .foregroundStyle(
-                    LinearGradient(
-                        colors: [
-                            .customGreenLight,
-                            .customGreenLight
-                        ],
-                        startPoint: .top,
-                        endPoint: .bottom)
+                    titleColor
                 )
                             
         }
-        .frame(width: 250, height: 20)
+        .frame(width: frameWidth, height: 20)
         .padding()
         .background(
             LinearGradient(
@@ -50,7 +47,7 @@ struct CustomButtonView: View {
 }
 
 #Preview {
-    CustomButtonView(title: "Login", action: {
+    CustomButtonView(title: "Login",frameWidth: 200,titleColor: .colorGrayLight, action: {
         print("Login")
     })
 }

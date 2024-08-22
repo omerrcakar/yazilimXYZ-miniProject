@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A4010E962C75D0EE00B54704 /* CustomCircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4010E952C75D0EE00B54704 /* CustomCircleButtonView.swift */; };
 		A4010E982C75E98500B54704 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4010E972C75E98500B54704 /* CustomButtonView.swift */; };
+		A40ADF392C77846E00BF339C /* ForgetPasswordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40ADF382C77846E00BF339C /* ForgetPasswordSheet.swift */; };
 		A44BB1C12C7530F00030669D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BB1C02C7530F00030669D /* CardView.swift */; };
 		A44BB1C42C7533980030669D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BB1C32C7533980030669D /* CustomBackgroundView.swift */; };
 		A44BB1C72C7537560030669D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44BB1C62C7537560030669D /* ColorExtension.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		A4010E952C75D0EE00B54704 /* CustomCircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleButtonView.swift; sourceTree = "<group>"; };
 		A4010E972C75E98500B54704 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		A40ADF382C77846E00BF339C /* ForgetPasswordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordSheet.swift; sourceTree = "<group>"; };
 		A44BB1C02C7530F00030669D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A44BB1C32C7533980030669D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		A44BB1C62C7537560030669D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		A44BB1C22C7533440030669D /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				A44BB1C02C7530F00030669D /* CardView.swift */,
 				A44BB1C32C7533980030669D /* CustomBackgroundView.swift */,
 				A4010E952C75D0EE00B54704 /* CustomCircleButtonView.swift */,
 				A4010E972C75E98500B54704 /* CustomButtonView.swift */,
@@ -126,9 +127,11 @@
 			isa = PBXGroup;
 			children = (
 				A4D83A2F2C7501D600DCFC5F /* MainPage.swift */,
+				A44BB1C02C7530F00030669D /* CardView.swift */,
 				A4D83A3E2C7502AE00DCFC5F /* LoginPage.swift */,
 				A4D83A402C7502B900DCFC5F /* SignUpPage.swift */,
 				A47C71A12C762F1E002CE483 /* SettingSheetPage.swift */,
+				A40ADF382C77846E00BF339C /* ForgetPasswordSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				A4010E982C75E98500B54704 /* CustomButtonView.swift in Sources */,
 				A4010E962C75D0EE00B54704 /* CustomCircleButtonView.swift in Sources */,
 				A47C719E2C7612DA002CE483 /* CustomCircleView.swift in Sources */,
+				A40ADF392C77846E00BF339C /* ForgetPasswordSheet.swift in Sources */,
 				A44BB1C42C7533980030669D /* CustomBackgroundView.swift in Sources */,
 				A4D83A2E2C7501D600DCFC5F /* miniProjectUIApp.swift in Sources */,
 				A47C71A02C761AFD002CE483 /* MotionAnimationView.swift in Sources */,
