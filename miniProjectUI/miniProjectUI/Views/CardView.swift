@@ -38,9 +38,9 @@ struct CardView: View {
                     // MARK: - HEADER
                     VStack(alignment: .leading) {
                         HStack {
-                            Text("Plant")
+                            Text("Plant.")
                                 .fontWeight(.black)
-                                .font(.system(size: 52))
+                                .font(.system(size: 50))
                                 .foregroundStyle(
                                     LinearGradient(
                                         colors: [

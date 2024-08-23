@@ -10,9 +10,9 @@ import SwiftUI
 struct SettingSheetPage: View {
     // MARK: - PROPERTIES
     private let alternateAppIcons: [String] = [
-        "plant-1",
-        "plant-2",
-        "plant-3"
+        "plants-1",
+        "plants-2",
+        "plants-3"
     ]
     
     
@@ -82,7 +82,7 @@ struct SettingSheetPage: View {
                                     }
                                 }
                             }label: {
-                                Image("\(alternateAppIcons[item])")
+                                Image("\(alternateAppIcons[item])-Preview")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 80, height: 80)
@@ -117,7 +117,7 @@ struct SettingSheetPage: View {
                     .padding(.vertical, 8)
             ){
                 // Labeled Content
-                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "PLANT", rowTintColor: .colorGreenDark)
+                CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "Plant.", rowTintColor: .colorGreenDark)
                 CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "İOS", rowTintColor: .red)
                 CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "SwiftUI", rowTintColor: .orange)
                 CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
