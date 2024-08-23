@@ -1,7 +1,7 @@
 # yazilimXYZ-miniProject
-Login and Register Page
-Changeable app icon
-Animated images on the home screen and other pages ( Leaves floating in the air and picture with effect )
+Login and Register Page , Changeable app icon , Animated images on the home screen and other pages ( Leaves floating in the air and picture with effect )
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e80d3f63-9fdd-4cdc-b4a7-181cb3c77fcb" width="200"/>
   <img src="https://github.com/user-attachments/assets/8912f06a-7565-4ee1-99b7-427ac6feee77" width="200"/>
